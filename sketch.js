@@ -71,17 +71,17 @@ function draw() {
       handleBubbleCollision(blueBubbleGroup);
     }*/
 
+   // if(blueBubbleGroup.collide(bulletGroup)){
+     // handleBubbleCollision();
+    //}
+    
+    //if(blueBubbleGroup.collide()){
+      //handleBubbleCollision(blueBubbleGroup);
+    //}
+    
     if(blueBubbleGroup.collide(bulletGroup)){
-      handleBubbleCollision();
+      handleBubbleCollision(blueBubbleGroup);
     }
-    
-    /*if(blueBubbleGroup.collide()){
-      handleBubbleCollision(blueBubbleGroup);
-    }*/
-    
-    /*if(blueBubbleGroup.collide(bulletGroup)){
-      handleBubbleCollision(blueBubbleGroup);
-    }*/
 
     if(redBubbleGroup.collide(bulletGroup)){
       handleBubbleCollision(redBubbleGroup);
